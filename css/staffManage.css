@@ -1,0 +1,78 @@
+body{
+    font-size:14px;
+	margin: 10px 8px 0px 15px;
+	background-color: #ECF0F2;
+}
+
+label{
+	font-size:14px;
+}
+
+.imgBut{
+	cursor:hand;
+	border-left: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #AAAAAA;
+	border-bottom: 1px solid #AAAAAA;
+}
+.imgButOver{
+	cursor:hand;
+	border-left: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+.imgButDown{
+	cursor:hand;
+	border-left: 1px solid #000000;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+}
+.conCss{
+	margin-top:20px;
+	padding:0;
+}
+
+.reqConcBut{
+	text-align:center;
+	border:1px dashed #98C8FF;
+	border-bottom-width:0px;
+	cursor:hand;
+	filter:progid:DXImageTransform.Microsoft.Gradient(gradienttype=0, startcolorstr=#FFFFFF, endcolorstr=#ECF0F2);
+}
+.reqConcButOver{
+	text-align:center;
+	border-top:1px solid #98C8FF; 
+	border-left:1px dashed #98C8FF;
+	border-right:1px dashed #98C8FF;
+	border-bottom-width:0px;
+	cursor:hand;
+	filter:progid:DXImageTransform.Microsoft.Gradient(gradienttype=0, startcolorstr=#D4EDFF, endcolorstr=#ECF0F2);
+}
+.xmlTable
+{
+	behavior: url(../../../resource/htc/table.htc);
+	cursor: hand;
+}
+
+.itemOverCss{
+	color: #FFFFFF;
+	cursor: hand;
+	background-color:#4068AA;
+	font-weight:bold;
+}
+.itemOutCss{
+}
+.label_1{
+	font-size:14px;
+	color: #125899;
+	font-family: "arial", "·ÂËÎ";
+	font-weight:bold;	
+	line-height:20px;
+	padding:0px 3px 0px 0px;
+	margin:3px 0px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}

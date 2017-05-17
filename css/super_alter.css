@@ -1,0 +1,91 @@
+body {
+    font-size:14px;
+	margin: 10px 8px 0px 15px;
+	background-color: #ECF0F2;
+}
+label{
+   font-size:14px;
+}
+.imgBut{
+	cursor:hand;
+	border-left: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #AAAAAA;
+	border-bottom: 1px solid #AAAAAA;
+}
+.imgButOver{
+	cursor:hand;
+	border-left: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+.imgButDown{
+	cursor:hand;
+	border-left: 1px solid #000000;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+}
+.conCss{
+	margin-top:20px;
+	padding:0;
+}
+.labelNoLink {cursor:defaule;text-decoration:none;color:#000000;}
+.labelLink {cursor:hand;text-decoration:underline;color:#194FA7;}
+.labelLinkOver {cursor:hand;text-decoration:underline;color:#FF0000;}
+.opLable{width:15%;float:left;text-align:center;margin:2px 0;}
+.opinput{width:34%;float:left;margin:2px 0;border:1px solid #AAA;}
+
+#floatBoxBg{
+	display:none;
+	width:102%;
+	height:100%;
+	background:#000;
+	filter:alpha(opacity=10);
+	opacity:0.5;
+	position:absolute;
+	top:0;
+	left:0;
+	margin:0px;
+}
+.floatBox{
+	display:none;
+	width:100%;
+	height:100%;
+	border:#A6C9E2 1px solid;
+	position:absolute;
+	top:0;
+	left:0;
+	background:#FFFFFF;
+}
+.floatBox .title{height:23px;padding:0 5px 0 10px;background:#E5F4FF;color:#000000;}
+.floatBox .title h4{float:left;padding:0;margin:0;font-size:14px;line-height:23px;}
+.floatBox .title span{float:right;font-size:15px;cursor:pointer;line-height:23px;}
+.floatBox .content{padding:0px;background:#FFFFFF;height:auto;overflow:hidden;}
+#function_point_table label{
+width: 100%; text-align: center;
+}
+#function_point_table tr{
+ text-align: center;
+}
+
+#function_point_table_content1 tr td {
+		padding-left: 10px;
+		padding-right: 10px;
+		text-align: center;
+	}
+	
+#function_point_table_content1 tr span {
+	width: 100%;
+}
+	
+#function_point_table_content1 tr td a, #function_point_table_content tr td a {
+	display: inline-block;
+	word-break: break-all;
+	text-align: left;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+}
